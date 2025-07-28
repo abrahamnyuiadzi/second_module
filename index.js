@@ -9,7 +9,7 @@
       const li = document.createElement("li");
       li.innerHTML = `
         <span>${taskText}</span>
-        <button class="delete-btn" onclick="deleteTask(this)">Supprimer</button>
+        <button class="delete-btn" onclick="deleteTask(this)">delete</button>
       `;
 
       document.getElementById("taskList").appendChild(li);
